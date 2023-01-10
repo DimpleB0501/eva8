@@ -24,5 +24,5 @@ There are 2 outputs from my model<br/>
 - addition output of an MNIST image and random number<br/>
 
 
-For visualization purpose I have tested the trained model on an image in the training set<br/>. Following image displays the ouput of the test:
-![test](op.png)
+For visualization purpose I have tested the trained model on an image in the training set.<br/> Following image displays the ouput of the test:
+![test](images/op.png)
