@@ -19,3 +19,6 @@ I have followed this [blog](https://github.com/zaidalyafeai/Machine-Learning/blo
 The 2 inputs to my models from the custom dataset are <br/>
 - MNIST image(28x28)
 - One hot encoded randomly generated integer (0-9) (28x28)
+There are 2 outputs from my model
+- MNIST image based number classifier
+- addition output of an MNIST image and random number
