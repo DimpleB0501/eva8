@@ -11,6 +11,11 @@ The first step in the assignment was to create a custom dataset that displays <b
 Following images displays the custom dataset creation block in my colab notebook <br/>
 ![cd](images/custom_data.png)
 
-### Model 
-##### MNIST training logs
-![ml](images/just_mnist_logs.png)
+### Model and training
+Following are my training logs:
+![ml](images/training_logs.png)
+
+I have taken followed and modified this [blog](https://github.com/zaidalyafeai/Machine-Learning/blob/master/Multi-input%20Network%20Pytorch.ipynb) to develop a neural network model thats adds 2 inputs. <br/>
+The 2 inputs to my models from the custom dataset are <br/>
+- MNIST image(28x28)
+- One hot encoded randomly generated integer (0-9) (28x28)
