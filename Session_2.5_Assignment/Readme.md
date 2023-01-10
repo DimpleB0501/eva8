@@ -12,3 +12,5 @@ Following images displays the custom dataset creation block in my colab notebook
 ![cd](images/custom_data.png)
 
 ### Model 
+##### MNIST training logs
+![ml](images/just_mnist_logs.png)
