@@ -1,4 +1,4 @@
-# Assignmet
+# Assignment
 ### Part 2
 Q. WRITE The given code AGAIN SUCH THAT IT ACHIEVES<br/>
 - 99.4% validation accuracy<br/>
