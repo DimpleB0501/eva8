@@ -1,5 +1,4 @@
-# Assignment
-### Part 2
+# Assignment Part 2
 Q. WRITE The given code AGAIN SUCH THAT IT ACHIEVES<br/>
 - 99.4% validation accuracy<br/>
 - Less than 20k Parameters<br/>
@@ -14,5 +13,3 @@ Following figure displays output from **torchsummary** <br/>
 
 I received an accuracy of 99.4% at the **16th** epoch.
 ![acc](images/acc.png)
-
-### Part 1
