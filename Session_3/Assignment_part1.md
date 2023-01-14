@@ -10,8 +10,8 @@ Submit details to S4 - Assignment QnA. <br/>
 
 # Solution
 1. Screenshot of the neural network 
-![sc](images/part1.png)
+![sc](images/part1.PNG)
 
 2. Graphs of the learning rate
 - Learning rate= 0.1
-![lr1](images/lr_0.1.png)
+![lr1](images/lr_0.1.PNG)
