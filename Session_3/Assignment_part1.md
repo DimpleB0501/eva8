@@ -14,7 +14,7 @@ We derived the formulas for forward and backward propogation using partial dervi
 ![formulas](images/formula.PNG)
 <br/>
 We started with the weights displayed in the figure. <br/>
-At each step we updated the weights using the learning. The formula for weight update is `weight_new = weight_old - (learning_rate x ꝺE/ꝺweight_old)` <br/>
+At each step we updated the weights using the learning. The formula for weight update is <br/>`weight_new = weight_old - (learning_rate x ꝺE/ꝺweight_old)` <br/>
 Following [excel sheet](https://github.com/DimpleB0501/eva8/blob/main/Session_3/nn_excel.ods) contains my work on building a simple neural network for the Assignment 3 part 1. Following figure displays the screenshot of the excel sheet <br/> 
 ![sc](images/part1.PNG)
 
