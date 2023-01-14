@@ -9,3 +9,9 @@ Upload all this to GitHub and then write all the above as part 1 of your README.
 Submit details to S4 - Assignment QnA. <br/>
 
 # Solution
+1. Screenshot of the neural network 
+![sc](images/part1.png)
+
+2. Graphs of the learning rate
+- Learning rate= 0.1
+![lr1](images/lr_0.1.png)
