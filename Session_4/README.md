@@ -32,7 +32,7 @@
 - Batch normalization drastically increases the accuracy of the model
 - The model is overfitting. The training accuracy of the model is continously increasing. However the test accuracy toggles between 99.1- 99.3 \%.
 
-# Code 4 -  Effect of dropout layer
+# Code 4 -  Affect of dropout layer
 ### **Target**
 - Adding 2 dropout layers
 ### **Results**
@@ -51,22 +51,34 @@
 - Parameters - 8,204
 - Best training accuracy - 98.54 \%
 - Best test accuracy - 97.38 \% <br/>
-- 
 ### **Analysis**
-- Adding gap layers decreases the number of parameters in the model.
+- Adding GAP layer decreases the number of parameters in the model.
 - There is a drop in test and train accuracy of the model
 - Model is still overfitting
 
-# Code 6 - 
+# Code 6 - Increase the capacity of the network
+### **Target**
+- Increase model capacity. Add more layers at the end.
+### **Results**
+- Parameters - 10,764
+- Best training accuracy - 99.14 \%
+- Best test accuracy - 99.18 \% <br/>
+### **Analysis**
+- The model is not overfitting.
+- Less gap between the train and test accuracy.
+- In the last epochs the train accuracy has been maintained at 99.1 % and test accuracy is maintained at 99.1%
 
-# Code 7 -  Effect of data augmentation
+# Code 7 -  Affect of data augmentation
 ### **Target**
 
 ### **Results**
-
+- Parameters - 
+- Best training accuracy -  \%
+- Best test accuracy -  \% <br/>
 ### **Analysis**
 
-# Code 8 -  Learning rate
+
+# Code 8 -  Affect of Learning rate
 ### **Target**
 
 ### **Results**
