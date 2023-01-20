@@ -23,24 +23,30 @@
 
 # Code 3 - Including batch normalization
 ### **Target**
-- Adding batch normalization layer
+- Adding batch normalization layers
 ### **Results**
-
+- Parameters - 9,804
+- Best training accuracy - 99.81 \%
+- Best test accuracy - 99.27 \% <br/>
 ### **Analysis**
+- Batch normalization drastically increases the accuracy of the model
+- The model is overfitting. The training accuracy of the model is continously increasing. However the test accuracy toggles between 99.1- 99.3 \%.
 
-# Code 4 -  Introducing GAP layer
+# Code 4 -  Effect of dropout layer
 ### **Target**
 
 ### **Results**
 
 ### **Analysis**
 
-# Code 5 -  Effect of dropout layer
+# Code 5 -  Introducing GAP layer
 ### **Target**
 
 ### **Results**
 
 ### **Analysis**
+
+
 
 # Code 6 -  Effect of data augmentation
 ### **Target**
