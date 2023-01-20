@@ -70,12 +70,14 @@
 
 # Code 7 -  Affect of data augmentation
 ### **Target**
-
+- As explained in the class I implemented rotation transformation with 7 degrees, along with normalization as a data augmentation technique. 
 ### **Results**
-- Parameters - 
-- Best training accuracy -  \%
-- Best test accuracy -  \% <br/>
+- Parameters - 10,764
+- Best training accuracy - 98.96 \%
+- Best test accuracy - 99.38 \% <br/>
 ### **Analysis**
+- As expected the training accuracy decreases as we have made the dataset harder for our model.
+- However the training accuracy increases consistently and reaches 99.38 \% at the 15th epoch
 
 
 # Code 8 -  Affect of Learning rate
