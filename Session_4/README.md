@@ -2,42 +2,49 @@
 ### **Target** 
 - Setting up the skeleton 
 ### **Results** 
-- Parameters - 11,844
-- Best training accuracy - 99.91 \%
-- Best test accuracy - 99.34 \% <br/>
+- Parameters - 11,632
+- Best training accuracy - 98.90 \%
+- Best test accuracy - 98.82 \% <br/>
 ### **Analysis**
-- Model is overfitting
-- Dropout layers need to be introduced to reduce the gap between training and test dataset <br/>
+- Number of parameters is more than the desired parameters
+- Training and test accuracy is less and its plateauing <br/>
 
-# Code 2 - Including batch normalization
+# Code 2 - Lighter weight model
 ### **Target**
 
 ### **Results**
 
 ### **Analysis**
 
-# Code 3 -  Introducing GAP layer
+# Code 3 - Including batch normalization
 ### **Target**
 
 ### **Results**
 
 ### **Analysis**
 
-# Code 4 -  Effect of dropout layer
+# Code 4 -  Introducing GAP layer
 ### **Target**
 
 ### **Results**
 
 ### **Analysis**
 
-# Code 5 -  Effect of data augmentation
+# Code 5 -  Effect of dropout layer
 ### **Target**
 
 ### **Results**
 
 ### **Analysis**
 
-# Code 6 -  Learning rate
+# Code 6 -  Effect of data augmentation
+### **Target**
+
+### **Results**
+
+### **Analysis**
+
+# Code 7 -  Learning rate
 ### **Target**
 
 ### **Results**
