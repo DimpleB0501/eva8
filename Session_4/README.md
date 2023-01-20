@@ -34,16 +34,24 @@
 
 # Code 4 -  Effect of dropout layer
 ### **Target**
-
+- Adding 2 dropout layers
 ### **Results**
-
+- Parameters - 9,804
+- Best training accuracy - 99.24 \%
+- Best test accuracy - 98.88 \% <br/>
 ### **Analysis**
+- Model is still overfitting. 
+- There is a gap between the training and test accuracy.
+- The test accuracy stills toggles but at a lower range.
 
 # Code 5 -  Introducing GAP layer
 ### **Target**
-
+- Add GAP layer and remove the last BIG kernel.
 ### **Results**
-
+- Parameters - 9,804
+- Best training accuracy - 99.24 \%
+- Best test accuracy - 98.88 \% <br/>
+- 
 ### **Analysis**
 
 
