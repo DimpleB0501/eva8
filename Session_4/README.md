@@ -48,22 +48,25 @@
 ### **Target**
 - Add GAP layer and remove the last BIG kernel.
 ### **Results**
-- Parameters - 9,804
-- Best training accuracy - 99.24 \%
-- Best test accuracy - 98.88 \% <br/>
+- Parameters - 8,204
+- Best training accuracy - 98.54 \%
+- Best test accuracy - 97.38 \% <br/>
 - 
 ### **Analysis**
+- Adding gap layers decreases the number of parameters in the model.
+- There is a drop in test and train accuracy of the model
+- Model is still overfitting
 
+# Code 6 - 
 
-
-# Code 6 -  Effect of data augmentation
+# Code 7 -  Effect of data augmentation
 ### **Target**
 
 ### **Results**
 
 ### **Analysis**
 
-# Code 7 -  Learning rate
+# Code 8 -  Learning rate
 ### **Target**
 
 ### **Results**
