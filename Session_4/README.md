@@ -26,7 +26,21 @@
 - However after adding dropout layer, the gap between test and training accuracy is reduced. 
 - Note- Just for reference I first introduced the gap layer and than added the dropout layer. The dropout layer reduced the accuracy of the training set, however it did not have any significant affect on the accuracy of test dataset.
 
-# Code 3 -  Image Augmentation
+# Code 3 -  Increased capacity
+### **Target**
+
+### **Results**
+
+### **Analysis**
+
+# Code 4 -  Image Augmentation
+### **Target**
+
+### **Results**
+
+### **Analysis**
+
+# Code 5 -  Learning rate
 ### **Target**
 
 ### **Results**
