@@ -79,12 +79,3 @@
 - As expected the training accuracy decreases as we have made the dataset harder for our model.
 - However the training accuracy increases consistently and reaches 99.38 \% at the 15th epoch
 
-
-# Code 8 -  Affect of Learning rate
-### **Target**
-
-### **Results**
-
-### **Analysis**
-
-
