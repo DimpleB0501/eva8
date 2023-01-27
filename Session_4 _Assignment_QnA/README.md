@@ -8,7 +8,19 @@ The **results** of my model are <br/>
 - Max test accuracy **99.39 %** at 15 epoch. <br/>
 
 The receptive field caculation for the model is as follows <br/>
-
+| Layer         		| Description    	        					|
+|:---------------------:|:---------------------------------------------:|
+| Convolution  32x32x1        		| 28x28x6                	|
+| RELU activation    |                                           	|
+| Pooling 28x28x6    |14x14x6                                               |
+| Convolution  14x14x6        		| 10x10x16                	|
+| RELU activation    |                                           	|
+| Pooling 10x10x16    |5x5x16                                               |
+| Flatten 5x5x16   | 400                                           	|
+| Fully connected		| 400 input, 120 output     					|
+| Flatten           |                                               |
+| Fully connected		| 120 input, 84 output     					|
+| Output         		| 84 input, 43 output     				     	|
 
 
 # Code 1 - Lighter weight model
