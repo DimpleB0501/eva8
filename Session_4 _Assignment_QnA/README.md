@@ -7,22 +7,22 @@ The **results** of my model are <br/>
 - Max training accuracy **99.78 %** at 13 epoch,
 - Max test accuracy **99.39 %** at 15 epoch. <br/>
 
-##### Receptive field calculation
-####### Formula to calculate the receptive field
+### Receptive field calculation
+##### Formula to calculate the receptive field
 ![rf](images/receptive_field_cal.png)
-####### Receptive field calculation for my model
-| Layer   | Kernel|Padding|
-|:-------:|:-----:|:-----:|
-| Input   |       |       |
-| Conv1   |    3  |   0   |
-| Conv2   |    3  |   0   |
-| Conv3   |    1	|   0   |              	|
-| Max pool|    2  |   0   |
-| Conv4   |    3  |   0   |
-| Conv5   |    3  |   0   |
-| Conv6		|    3  |   0   |
-| GAP     |    6  |   0   |
-| Conv7		|    1  |   0   |
+##### Receptive field calculation for my model
+| Layer   | Kernel|Padding|Stride|       | j_in  |  s_in | s_out | RF    | j_out |
+|:-------:|:-----:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Input   |       |       |      |       |     1 |       |    28 |     1 |      1|
+| Conv1   |    3  |   0   |     1|       |     1 |     28|    26 |     3 |      1|
+| Conv2   |    3  |   0   |     1|       |     1 |     26|    24 |     5 |      1|
+| Conv3   |    1	|   0   |     1|       |     1 |     24|    24 |     5 |      1|
+| Max pool|    2  |   0   |     2|       |     1 |     24|    12 |     6 |      2|
+| Conv4   |    3  |   0   |     1|       |     2 |     12|    10 |    10 |      2|
+| Conv5   |    3  |   0   |     1|       |     2 |     10|     8 |    14 |      2|
+| Conv6		|    3  |   0   |     1|       |     2 |      8|     6 |    18 |      2|
+| GAP     |    6  |   0   |     1|       |     2 |      6|     1 |    28 |      2|
+| Conv7		|    1  |   0   |     1|       |     2 |      1|     1 |    28 |      2|
 
 
 
