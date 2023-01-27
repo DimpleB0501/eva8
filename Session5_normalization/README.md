@@ -18,3 +18,12 @@
 - add all your graphs
 - your 3 collection-of-misclassified-images 
 5. Upload your complete assignment on GitHub and share the link on LMS
+
+# Solution
+### Find 10 misclassified images for each of the 3 models
+##### Network with L1 + BN
+![batch](batch.png)
+##### Network with Layer Normalization
+![Layer](layer.png)
+##### Network with Group Normalization
+![group](group.png)
