@@ -7,20 +7,23 @@ The **results** of my model are <br/>
 - Max training accuracy **99.78 %** at 13 epoch,
 - Max test accuracy **99.39 %** at 15 epoch. <br/>
 
-The receptive field caculation for the model is as follows <br/>
-| Layer         		| Description    	        					|
-|:---------------------:|:---------------------------------------------:|
-| Convolution  32x32x1        		| 28x28x6                	|
-| RELU activation    |                                           	|
-| Pooling 28x28x6    |14x14x6                                               |
-| Convolution  14x14x6        		| 10x10x16                	|
-| RELU activation    |                                           	|
-| Pooling 10x10x16    |5x5x16                                               |
-| Flatten 5x5x16   | 400                                           	|
-| Fully connected		| 400 input, 120 output     					|
-| Flatten           |                                               |
-| Fully connected		| 120 input, 84 output     					|
-| Output         		| 84 input, 43 output     				     	|
+##### Receptive field calculation
+####### Formula to calculate the receptive field
+![rf](images/receptive_field_cal.png)
+####### Receptive field calculation for my model
+| Layer   | Kernel|Padding|
+|:-------:|:-----:|:-----:|
+| Input   |       |       |
+| Conv1   |    3  |   0   |
+| Conv2   |    3  |   0   |
+| Conv3   |    1	|   0   |              	|
+| Max pool|    2  |   0   |
+| Conv4   |    3  |   0   |
+| Conv5   |    3  |   0   |
+| Conv6		|    3  |   0   |
+| GAP     |    6  |   0   |
+| Conv7		|    1  |   0   |
+
 
 
 # Code 1 - Lighter weight model (base code)
@@ -54,7 +57,7 @@ Adding dropout layers (dropout value = 0.1) to handle overfitting
 
 # Code 3 - Adding data augmentation and StepLR
 ### **Target**
-- Implementing data augmentation (rotation with 7 degrees variance)
+- Implementing data augmentation (rotation with -7 to 7 degrees range)
 - Implementing learning rate scheduler from the 6th epoch
 - Removing dropout
 ### **Results**
