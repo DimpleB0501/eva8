@@ -18,7 +18,7 @@
 - [model.py](https://github.com/DimpleB0501/eva8/blob/main/Session5_normalization/model.py) file includes GN/LN/BN and takes an argument to decide which normalization to use.
 - [Session_5_Assignment_QnA.ipynb](https://github.com/DimpleB0501/eva8/blob/main/Session5_normalization/Session_5_Assignment_QnA.ipynb) is a single notebook file to run all the above 3 models for 20 epochs each.
 
-# Normalization techniques breif explanation
+# Normalization techniques brief explanation
 
 # Analysis 
 ![grap](images/graph.png)
