@@ -23,7 +23,7 @@
 # Analysis 
 ![grap](images/graph.png)
 
-### 10 misclassified images for each of the 3 models
+# 10 misclassified images for each of the 3 models
 ##### Network with L1 + BN
 ![batch](images/batch.png)
 ##### Network with Layer Normalization
