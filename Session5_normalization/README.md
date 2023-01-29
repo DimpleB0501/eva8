@@ -20,7 +20,23 @@
 5. Upload your complete assignment on GitHub and share the link on LMS
 
 # Solution
-### Find 10 misclassified images for each of the 3 models
+### Model
+##### Following is my network's output from torch summary
+![op](images/op.png)
+##### Parameters
+- Batch size - 128
+- Optimizer - Stochastic gradient descent (SGD)
+- Dropout - 0
+- Scheduler - None
+- Normalization techniques
+| Technique                  |   Best training accuracy | Best test accuracy  |  L1 factor | number of groups |
+|:--------------------------:|:------------------------:|:-------------------:|:----------:|:----------------:|
+| L1 + Batch normalization   | 94.19% at 20th Epoch     | 92.01% at 1st epoch |    0.01    |       0          |    
+| Layer normalization        | 99.35% at 19th Epoch     | 99.29% at 13th epoch|    0       |       0          |    
+| Group normalization        | 99.45% at 19th Epoch     | 99.37% at 15th epoch|    0       |       8          |    
+
+
+### 10 misclassified images for each of the 3 models
 ##### Network with L1 + BN
 ![batch](images/batch.png)
 ##### Network with Layer Normalization
