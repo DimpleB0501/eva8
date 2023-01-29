@@ -28,7 +28,8 @@
 - Optimizer - Stochastic gradient descent (SGD)
 - Dropout - 0
 - Scheduler - None
-- Normalization techniques
+- Normalization techniques <br/>
+
 | Technique                  |   Best training accuracy | Best test accuracy  |  L1 factor | number of groups |
 |:--------------------------:|:------------------------:|:-------------------:|:----------:|:----------------:|
 | L1 + Batch normalization   | 94.19% at 20th Epoch     | 92.01% at 1st epoch |    0.01    |       0          |    
