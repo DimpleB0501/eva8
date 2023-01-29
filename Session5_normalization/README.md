@@ -1,16 +1,3 @@
-# Assignment
-
-
-- Create these graphs:
-   - Graph 1: Test/Validation Loss for all 3 models together
-   - Graph 2: Test/Validation Accuracy for 3 models together
-   - graphs must have proper annotation
-
-- how to perform the 3 normalizations techniques that we covered(cannot use values from the excel sheet shared)
-- your findings for normalization techniques,
-- add all your graphs
-- your 3 collection-of-misclassified-images 
-
 # Model
 ### Following is my network's output from torch summary
 ![op](images/op.png)
