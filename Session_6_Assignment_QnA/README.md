@@ -23,9 +23,9 @@ Achieved specifications
 - Trained and validated for 100 epochs
 - 85.25 % training accuracy acheived at 54 epoch
 - 85.42% % test accuracy acheived at 24 epoch
-
+![acc](images/acc.png)
 ##### Plot train and test accuracies
-![acc](acc.png)
+![plot](images/plots.png)
 
 ### CIFAR10 class performance 
-![per](per.png)
+![per](images/per.png)
