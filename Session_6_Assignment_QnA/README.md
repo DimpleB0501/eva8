@@ -11,15 +11,12 @@ Design a network CIFAR 10 dataset
 ![a2](images/train_trans_op.png)
 
 ### Model
-- change the architecture to C1C2C3C40 (No MaxPooling, but 3 3x3 layers with stride of 2 instead) (If you can figure out how to use Dilated kernels here instead of MP or strided convolution, then 200pts extra!)
-- one of the layers must use Depthwise Separable Convolution
-- one of the layers must use Dilated Convolution
-- use GAP (compulsory):- add FC after GAP to target #of classes (optional)
+My model has 6 convolution layers (with 3x3 kernels), 2 dilated convolution layers, 1 depthwise separable convolution layer, a convolution layer implemented as max pool layer (kernel_size=(2, 2), stride = 2, padding=2, dilation = 4), a gap layer followed by a convolution layer. 
 
 ##### Model parameters
-Desired specifications
-- Receptive field more than 44 
-- Total Params to be less than 200k.
+Achieved specifications
+- Receptive field = 47 (> 44) 
+- Total Params = 188,576 (to be less than 200k)
 ![model](images/model_param.png)
 
 ### Training log
