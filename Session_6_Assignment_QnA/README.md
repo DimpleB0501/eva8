@@ -22,4 +22,4 @@ Desired specifications
 ##### Plot train and test accuracies
 
 
-# CIFAR10 class performance 
+### CIFAR10 class performance 
