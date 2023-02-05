@@ -17,13 +17,13 @@ My model has 6 convolution layers (with 3x3 kernels), 2 dilated convolution laye
 Achieved specifications
 - Receptive field = 47 (> 44) 
 - Total Params = 188,576 (to be less than 200k)
-![model](images/model_param.png)
+![model](images/param.png)
 
 ### Training log
 - Trained and validated for 100 epochs
 - 85.25 % training accuracy acheived at 54 epoch
 - 85.42% % test accuracy acheived at 24 epoch
-![acc](images/acc.png)
+![acc](images/logs.png)
 ##### Plot train and test accuracies
 ![plot](images/plots.png)
 
