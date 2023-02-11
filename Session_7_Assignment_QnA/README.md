@@ -1,7 +1,4 @@
-# Assignment
-- structure code and pull it from github
-
-# Solution
+# Structure code and pull it from github
 ### Data augmentation
 - RandomCrop(32, padding=4)
 - CutOut(16x16) <br/>
