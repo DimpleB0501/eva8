@@ -4,7 +4,7 @@
 # Solution
 ### Data augmentation
 - RandomCrop(32, padding=4)
-- CutOut(16x16)
+- CutOut(16x16) <br/>
 ![img](images/aug.png)
 ### Train resnet18 for 20 epochs on the CIFAR10 dataset
 - Number of epochs - 20 epochs
