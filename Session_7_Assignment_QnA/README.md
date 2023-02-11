@@ -3,7 +3,10 @@
 
 # Solution
 ### Train resnet18 for 20 epochs on the CIFAR10 dataset
-
+- Number of epochs - 20 epochs
+- Best training accuracy - 92.80 % at 20th epoch
+- Best test accuracy - 87.22% at 20th epoch
+![model](images/resnet.png)
 ### Show loss curves for test and train datasets
 ![cur](images/acc.png)
 ### Show a gallery of 10 misclassified images
