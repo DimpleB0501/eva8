@@ -30,7 +30,7 @@ Group normalization - is a combination of both batch and layer normalization, it
 
 # Analysis 
 ![grap](images/graph.png)
-
+In layer and group normalization the model converges smoothly. For batch normalization there are jumps in test loss and test accuracy, this displays model instability. We have used batch normalization with L1 regularization (l1_lambda = 0.01).    
 # 10 misclassified images for each of the 3 models
 ##### Network with L1 + BN
 ![batch](images/batch.png)
