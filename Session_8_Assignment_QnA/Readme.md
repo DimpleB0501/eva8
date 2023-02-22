@@ -25,4 +25,4 @@
 ![plots](images/loss_acc_plot.png)
 
 ### Training logs
-![logs](images/ogs.png)
+![logs](images/logs.png)
