@@ -2,10 +2,10 @@
 ![cr](images/param.png)
 
 ### Applying data transforms for train data set
-- Padding of 4
-- RandomCrop 32, 32
-- FlipLR (Horizontal flip) 
-- CutOut(8, 8)
+- Padding of 4 <br/>
+- RandomCrop 32, 32 <br/>
+- FlipLR (Horizontal flip)  <br/>
+- CutOut(8, 8)  <br/>
 ![dt](images/train_images.png)
 
 ### Hyperparameters
