@@ -19,11 +19,13 @@
 - [Session_5_Assignment_QnA.ipynb](https://github.com/DimpleB0501/eva8/blob/main/Session5_normalization/Session_5_Assignment_QnA.ipynb) is a single notebook file to run all the above 3 models for 20 epochs each.
 
 # Normalization techniques brief explanation
-Normalization of inputs in neural network removes the difference in magnitude between different features, in turn aiding learning in DNN. 
+Normalization of inputs in neural network removes the difference in magnitude between different features, in turn aiding learning in DNN. <br/> 
 
-Batch normalization - standardizes each mini-batch input to a layer.
-Layer normalization - normalizes the activations along the feature/channel direction instead of the batch direction. Removes depdency on batch size.
-Group normalization - similar to layer normalization, however, it divides the features/channels into groups and normalizes each group separately.
+In Batch normalization, the mean and standard deviation are calculated for all inputs within a mini batch. <br/> 
+In Layer normalization, dependancy on the batch size is removed. Here mean and standard deviation is calculated across all layers (Intuitively if there are 4 layers, we get four mean and variance values for each input in your dataset.)
+<br/> 
+Group normalization - is a combination of both batch and layer normalization, it divides the features/channels into groups and normalizes each group separately.
+
 # Analysis 
 ![grap](images/graph.png)
 
