@@ -19,7 +19,7 @@
 - [Session_5_Assignment_QnA.ipynb](https://github.com/DimpleB0501/eva8/blob/main/Session5_normalization/Session_5_Assignment_QnA.ipynb) is a single notebook file to run all the above 3 models for 20 epochs each.
 
 # Normalization techniques brief explanation
-Normalization refers to the process of standardizing inputs to a neural network. Different normalization techniques can standardize different segments of the input.
+Normalization of inputs in neural network removes the difference in magnitude between different features, in turn aiding learning in DNN. 
 
 Batch normalization - standardizes each mini-batch input to a layer.
 Layer normalization - normalizes the activations along the feature/channel direction instead of the batch direction. Removes depdency on batch size.
