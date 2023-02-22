@@ -22,8 +22,10 @@
 Normalization of inputs in neural network removes the difference in magnitude between different features, in turn aiding learning in DNN. <br/> 
 
 In Batch normalization, the mean and standard deviation are calculated for all inputs within a mini batch. <br/> 
+
 In Layer normalization, dependancy on the batch size is removed. Here mean and standard deviation is calculated across all layers (Intuitively if there are 4 layers, we get four mean and variance values for each input in your dataset.)
 <br/> 
+
 Group normalization - is a combination of both batch and layer normalization, it divides the features/channels into groups and normalizes each group separately.
 
 # Analysis 
