@@ -5,7 +5,7 @@ Following is my ouput from torch summary
 ![summ](./images/cost.png)
 
 ### Training logs
-ConvMixer: Epoch: 0 | Train Acc: 0.3120, Test Acc: 0.4203, Time: 98.9, lr: 0.001000
+ConvMixer: Epoch: 0 | Train Acc: 0.3120, Test Acc: 0.4203, Time: 98.9, lr: 0.001000 <br/>
 ConvMixer: Epoch: 1 | Train Acc: 0.3681, Test Acc: 0.3895, Time: 88.7, lr: 0.002000
 ConvMixer: Epoch: 2 | Train Acc: 0.2971, Test Acc: 0.3180, Time: 89.1, lr: 0.003000
 ConvMixer: Epoch: 3 | Train Acc: 0.2565, Test Acc: 0.2613, Time: 86.9, lr: 0.004000
