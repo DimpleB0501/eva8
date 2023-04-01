@@ -4,4 +4,5 @@ Run the script [python3 review_bs.py](https://github.com/DimpleB0501/eva8/blob/m
 I collected reviews of film pathan and spider man which are stored in [moview_review.txt](https://github.com/DimpleB0501/eva8/blob/main/Session%2011%20Assignment/movie_review.txt) file. <br/>
 
 ### Training Bert model
-Run `https://github.com/DimpleB0501/eva8/blob/main/%20Session%2011%20Assignment%20/BertTraining.ipynb` on the collected dataset
+Run training on the collected dataset using [colab notebook](https://github.com/DimpleB0501/eva8/blob/main/Session%2011%20Assignment/BertTraining.ipynb).
+
